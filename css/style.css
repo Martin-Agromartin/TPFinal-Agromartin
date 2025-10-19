@@ -264,4 +264,57 @@ img {
   }
 }
 
+
+.pedidos {
+  background: linear-gradient(180deg, #f4f6f8 0%, #ffffff 100%);
+  min-height: 100vh;
+}
+
+.pedidos h1,
+.pedidos h2,
+.pedidos .card-title {
+  text-transform: none;
+}
+
+.list-steps {
+  margin: 0 0 1rem 1rem;
+  padding: 0;
+  font-weight: 500;
+}
+
+.list-steps li {
+  margin-bottom: 0.5rem;
+}
+
+.order-preview {
+  background-color: #0d6efd10;
+  border: 1px dashed #0d6efd;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  white-space: pre-wrap;
+  font-family: 'Courier New', Courier, monospace;
+  min-height: 160px;
+}
+
+#order-alert {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.table thead th {
+  border-bottom: 2px solid rgba(13, 110, 253, 0.25);
+}
+
+.table tfoot th {
+  border-top: 2px solid rgba(25, 135, 84, 0.35);
+}
+
+@media (max-width: 768px) {
+  .pedidos .card {
+    border-radius: 1rem;
+  }
+
+  .order-preview {
+    font-size: 0.9rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
